@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Home from './components/HomeComponent';
+import About from './components/AboutComponent';
+import Profiles from './components/ProfilesComponent';
+import { PROFILES } from './shared/profiles';
+import { Switch, Route, Redirect, BrowserRouter} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+      super(props);
+      this.state = {
+          profiles: PROFILES
+      };
+  }
+
+  render () {
+    return (
+      <BrowserRouter>
+        <Switch>
+          <Route path='/home' component={Home}/>
+          <Route path='/profiles' component={Profiles}/>
+          <Route path='/aboutus' component={About}/>    
+          <Route path='/profiles/:profilesid' render={() =><Profiles profiles ={this.props.profiles}/>}/> 
+          <Redirect to='/home'/>
+        </Switch>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
