@@ -1,13 +1,13 @@
 import React from 'react';
-import Navbar from 'NavbarComponent';
-import BirthdayForm from 'BirthdayFormComponent';
+import NavBar from './NavBarComponent';
+import BirthdayForm from './BirthdayFormComponent';
 
 function Home() {
     return(
         <React.Fragment>
-            <Navbar/>
+            <NavBar/>
             <BirthdayForm/>
-            <img src="./img/FrontCover"/>
+            <img src={require('../img/FrontCover.png')}/>
         </React.Fragment>
     );
 }

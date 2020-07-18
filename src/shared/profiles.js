@@ -5,7 +5,7 @@ export const PROFILES = [
         dob: 'January 6, 2012',
         color: 'blue',
         fact: "The name Apollos means 'One who destroys'",
-        // img: 'require('./img/Letter_A')'
+        // img: require('./img/Letter_A.png')
     },
     {
         id: 1,
@@ -13,7 +13,7 @@ export const PROFILES = [
         dob: 'November 15, 2010',
         color: 'blue',
         fact: 'The name Apollos means "One who destroys"',
-        // img: 'require('./img/Letter_B')'
+        // img: require('./img/Letter_B.png')
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ export const PROFILES = [
         dob: 'June 5, 2015',
         color: 'green',
         fact: 'Chandler adopted her cat Cherrio, when she was three years old.',
-        // img: 'require('./img/Letter_C')'
+        // img: require('./img/Letter_C.png')
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ export const PROFILES = [
         dob: 'May 13, 2010',
         color: 'purple',
         fact: "Dakota's best friend is Kalila.",
-        // img: 'require('./img/Letter_D')'
+        // img: require('./img/Letter_D.png')
     },
     {
         id: 4,
@@ -37,6 +37,6 @@ export const PROFILES = [
         dob: 'July 4, 2017',
         color: 'red',
         fact: 'Emerson and his family have recently move to the US from Germany.',
-        // img: 'require('./img/Letter_E')'
+        img: require('../img/Letter_E.png')
     }
 ]

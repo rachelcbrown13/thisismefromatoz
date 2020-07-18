@@ -19,7 +19,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route path='/home' component={Home}/>
-          <Route path='/profiles' component={Profiles}/>
+          <Route exact path='/profiles' component={Profiles}/>
           <Route path='/aboutus' component={About}/>    
           <Route path='/profiles/:profilesid' render={() =><Profiles profiles ={this.props.profiles}/>}/> 
           <Redirect to='/home'/>
