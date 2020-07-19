@@ -6,7 +6,7 @@ function Home() {
     return(
         <React.Fragment>
             <NavBar/>
-            <img src={require('../img/FrontCover.png')}/>
+            <img width="100%" src={require('../img/FrontCover.png')}/>
             <BirthdayForm/>
         </React.Fragment>
     );

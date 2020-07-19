@@ -35,21 +35,18 @@ class NavBar extends Component {
       </button>
       <div className="collapse navbar-collapse" id="navbarContent">
         <ul className="navbar-nav mr-auto">
-          <li className="nav-item active">
-            <a className="nav-link" href="index.html">Home</a>
+          <li className="nav-item">
+            <NavLink className="nav-link" href="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="profile.html">Profiles</a>
+            <NavLink className="nav-link" href="/profiles">Profiles</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="colorpage.html">Coloring Pages</a>
-          </li>
-          <li className="nav-item">
-              <a className="nav-link" href="aboutAuthor.html">About the Author</a>
+              <NavLink className="nav-link" href="/about">About the Author</NavLink>
           </li>
         </ul>
         {/* <!-- Purchase Modal Trigger --> */}
-        <Button className="btn btn-outline-info" type="button" data-toggle="modal" data-target="#purchaseModal">Purchase</Button>
+        <button className="btn btn-outline-info" type="button" data-toggle="modal" data-target="#purchaseModal">Purchase</button>
       </div>
     </nav>
     );
