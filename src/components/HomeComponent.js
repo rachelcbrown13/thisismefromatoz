@@ -6,8 +6,8 @@ function Home() {
     return(
         <React.Fragment>
             <NavBar/>
-            <BirthdayForm/>
             <img src={require('../img/FrontCover.png')}/>
+            <BirthdayForm/>
         </React.Fragment>
     );
 }

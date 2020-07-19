@@ -13,14 +13,13 @@ class App extends Component {
           profiles: PROFILES
       };
   }
-
   render () {
     return (
       <BrowserRouter>
         <Switch>
           <Route path='/home' component={Home}/>
           <Route exact path='/profiles' component={Profiles}/>
-          <Route path='/aboutus' component={About}/>    
+          <Route path='/about' component={About}/>    
           <Route path='/profiles/:profilesid' render={() =><Profiles profiles ={this.props.profiles}/>}/> 
           <Redirect to='/home'/>
         </Switch>
