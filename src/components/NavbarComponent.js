@@ -58,21 +58,15 @@ class NavBar extends Component {
             <ModalBody>
                 <Form>
                   <Row>
-                  <Col sm="4">
-                  
-                      <img src={require("../img/FrontCover.png")} width="150" className="img-thumbnail"/>
-                      
+                    <Col sm="4">
+                        <img src={require("../img/FrontCover.png")} width="150" className="img-thumbnail"/>
                     </Col>
                     <Col md="4">
-                    
-                      <input size="30" type="number" placeholder="Quantity"/>
-                      
+                        <input size="30" type="number" placeholder="Quantity"/>
                     </Col>
                     <Col md="4">
-                      
-                      Price: <input/> <br/>
-                      Shipping: <input/>
-                      
+                        Price: <input/> <br/>
+                        Shipping: <input/>
                     </Col>
                   </Row>
                   <Row>
