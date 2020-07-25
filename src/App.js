@@ -5,6 +5,7 @@ import About from './components/AboutComponent';
 import Profiles from './components/ProfilesComponent';
 import { PROFILES } from './shared/profiles';
 import { Switch, Route, Redirect, BrowserRouter} from 'react-router-dom';
+import CharacterCard from './components/CharacterComponent';
 
 class App extends Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class App extends Component {
           <Route path='/home' component={Home}/>
           <Route exact path='/profiles' component={Profiles}/>
           <Route path='/about' component={About}/>    
-          <Route path='/profiles/:profilesid' render={() =><Profiles profiles ={this.props.profiles}/>}/> 
+          <Route path='/profiles/:profilesid' component={CharacterCard}/> 
           <Redirect to='/home'/>
         </Switch>
       </BrowserRouter>
