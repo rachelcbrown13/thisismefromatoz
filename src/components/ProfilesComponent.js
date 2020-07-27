@@ -3,8 +3,7 @@ import NavBar from './NavBarComponent';
 import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { PROFILES } from '../shared/profiles';
-import CharacterCard from './CharacterComponent'; //Link to character card later
-
+import CharacterCard from './CharacterComponent'; 
 
 
 function RenderCharacter ({profile}) {
@@ -32,9 +31,8 @@ class ProfilePage extends Component {
     }
 
     render() {
-        const profilePage = this.state.profiles.map(profile => {
+        const profilePageGrid = this.state.profiles.map(profile => {
             return (  
-
                 <div key={profile.id} alt={profile.name} className="col-4">
                     <Link to= {`/profiles/${profile.id}`}>
                     <img src={profile.img} width="100%" className="img-thumbnail"/> 
@@ -51,7 +49,7 @@ class ProfilePage extends Component {
                 <h1>Choose a character to learn more</h1>
                 <div className="container">
                     <div className="row">
-                        {profilePage}
+                        {profilePageGrid}
                     </div>
                 </div>           
             </React.Fragment>

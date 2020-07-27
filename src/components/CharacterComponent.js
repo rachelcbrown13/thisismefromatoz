@@ -4,9 +4,16 @@ import { Link } from 'react-router-dom';
 
 
 
-function CharacterCard(props) {
+function CharacterCard() {
+    console.log({})
     return (
-        <h1>specific one</h1>
+        <h1>Hey</h1>
+        // <Card>
+        //     <CardImgOverlay>
+        //         <CardTitle>{props.profile.name}</CardTitle>
+        //         <CardBody>{props.profile.fact}</CardBody>
+        //     </CardImgOverlay> 
+        // </Card>
     );
 }
 
