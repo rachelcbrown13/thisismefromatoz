@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, Button, Collapse,
-  Modal, ModalHeader, ModalBody, Form, FormGroup, Input, Label, Row, Col, Container} from 'reactstrap';
+  Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Input, Label, Row, Img, Col, Container} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class NavBar extends Component {
@@ -62,11 +62,11 @@ class NavBar extends Component {
                         <img src={require("../img/FrontCover.png")} width="150" className="img-thumbnail"/>
                     </Col>
                     <Col md="4">
-                        <input size="30" type="number" placeholder="Quantity"/>
+                        Quantity: <Input size="30" type="number"/>
                     </Col>
                     <Col md="4">
-                        Price: <input/> <br/>
-                        Shipping: <input/>
+                        Price: <Input/> <br/>
+                        Shipping: <Input/>
                     </Col>
                   </Row>
                   <Row>
@@ -74,21 +74,19 @@ class NavBar extends Component {
                       <img src={require("../img/ActivityBookFrontCover.png")} width="150" className="img-thumbnail"/>
                     </Col>
                     <Col sm="2">
-                      <input type="number" placeholder="Quantity"/>
+                      <Input/>
                     </Col>
                     <Col>
-                      Total: <input type="text"/>
-                      <button type="submit" className="btn btn-success btn-lg">Purchase Here!</button>
+                      Total: <Input type="text"/>
+                      <Button type="submit" className="btn btn-success btn-lg">Purchase Here!</Button>
                     </Col>
                   </Row>
                 </Form> 
             </ModalBody>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-            <div className="justify-content-bottom">
+            <ModalFooter>
+              <Button className="btn btn-secondary" data-dismiss="modal">Close</Button>
               <p>But really, if you want to purchase the books <a href="https://www.amazon.com/This-Me-Z-Rachel-Brown-ebook/dp/B089PT13ZZ/ref=sr_1_3?dchild=1&keywords=rachel+chardea+brown&qid=1592015642&sr=8-3" target="_blank">CLICK HERE</a></p>
-            </div>
+            </ModalFooter>
       </Modal>
     </React.Fragment>
     );
