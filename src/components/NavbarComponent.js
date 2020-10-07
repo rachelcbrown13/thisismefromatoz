@@ -33,7 +33,7 @@ class NavBar extends Component {
       <React.Fragment>
         <Navbar className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
           <NavbarBrand href="index.html">This is ME from A to Z</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNav}/> 
+          
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar>
                 <NavItem>
@@ -49,6 +49,7 @@ class NavBar extends Component {
           </Collapse>
           {/* <!-- Purchase Modal Trigger --> */}
           <Button color="info" outline onClick={this.toggleModal}>Purchase</Button>
+          <NavbarToggler onClick={this.toggleNav}/> 
       </Navbar>
 {/* Purchase Modal */}
   <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
