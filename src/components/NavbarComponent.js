@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, NavItem, Button, Collapse,
-  Modal, ModalHeader, ModalBody, ModalFooter, Form, FormGroup, Input, Label, Row, Img, Col, Container} from 'reactstrap';
+  Modal, ModalHeader, ModalBody, ModalFooter, Form, Input, Label, Row, Col } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 class NavBar extends Component {
@@ -32,7 +32,7 @@ class NavBar extends Component {
     return (
       <React.Fragment>
         <Navbar className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-          <NavbarBrand href="index.html">This is ME from A to Z</NavbarBrand>
+          <NavbarBrand className="nav-link" to="/home">This is ME from A to Z</NavbarBrand>
           
           <Collapse isOpen={this.state.isNavOpen} navbar>
             <Nav navbar>
@@ -60,7 +60,19 @@ class NavBar extends Component {
                 <Form>
                   <Row>
                     <Col sm="4">
-                        <img src={require("../img/FrontCover.png")} width="150" className="img-thumbnail"/>
+                        <img src={require("../img/FrontCover.png")} alt="Front book cover" width="150" className="img-thumbnail"/>
+                    </Col>
+                    <Col md="4">
+                        Quantity: <Input size="30" type="number"/>
+                    </Col>
+                    <Col md="4">
+                        Price: <Input/> <br/>
+                        
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col md="4">
+                      <img src={require("../img/ActivityBookFrontCover.png")} alt="Front cover of activity book" width="150" className="img-thumbnail"/>
                     </Col>
                     <Col md="4">
                         Quantity: <Input size="30" type="number"/>
@@ -68,14 +80,6 @@ class NavBar extends Component {
                     <Col md="4">
                         Price: <Input/> <br/>
                         Shipping: <Input/>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col md="4">
-                      <img src={require("../img/ActivityBookFrontCover.png")} width="150" className="img-thumbnail"/>
-                    </Col>
-                    <Col sm="2">
-                      <Input/>
                     </Col>
                     <Col>
                       Total: <Input type="text"/>

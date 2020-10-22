@@ -82,17 +82,41 @@ export const PROFILES = [
     {
         id: 10,
         name: 'Kalila',
-        dob: 'July 4, 2017',
+        dob: 'August 23rd, 2010',
         color: 'red',
-        fact: 'Emerson and his family have recently move to the US from Germany.',
+        fact: `Kalila's best friend is Dakota.`,
         img: require('../img/Letter_K.png')
     },
     {
-        id: 1,
+        id: 11,
         name: 'Legacy',
         dob: 'July 4, 2017',
         color: 'red',
         fact: 'Emerson and his family have recently move to the US from Germany.',
         img: require('../img/Letter_L.png')
+    },
+    {
+        id: 12,
+        name: 'McKinley',
+        dob: 'August 23, 2010',
+        color: 'orange',
+        fact: `Kalila's best friend is Dakota.`,
+        img: require('../img/Letter_M.png')
+    },
+    {
+        id: 13,
+        name: 'Nava',
+        dob: 'August 23, 2010',
+        color: 'orange',
+        fact: `Kalila's best friend is Dakota.`,
+        img: require('../img/Letter_N.png')
+    },
+    {
+        id: 14,
+        name: 'Orion',
+        dob: 'August 23, 2010',
+        color: 'orange',
+        fact: `Kalila's best friend is Dakota.`,
+        img: require('../img/Letter_O.png')
     }
 ]

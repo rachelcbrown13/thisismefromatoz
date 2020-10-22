@@ -12,7 +12,7 @@ function About() {
                     </p>
                 </div>
                 <div className="col">
-                    <img width="100%" src={require('../img/headshot.jpg')} alt="Picture of author Rachel Brown" className="rounded-circle img-fluid"/>
+                    <img width="100%" src={require('../img/headshot.jpg')} alt="Author Rachel Brown" className="rounded-circle img-fluid"/>
                 </div>
             </div>
         </React.Fragment>

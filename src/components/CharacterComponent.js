@@ -1,23 +1,39 @@
-import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardTitle, CardBody, Breadcrumb, BreadcrumbItem } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import Navbar from './NavBarComponent';
+import { Card, CardImg, CardImgOverlay, CardTitle, CardBody, CardText } from 'reactstrap';
 
 function RenderCharacterCard ({profile}) {
     if (profile) {
         return (
-            <Card>
-                <CardImgOverlay>
-                    <CardImg width="100%" src={profile.img} alt={profile.name} />
-                    <CardTitle>{profile.name}</CardTitle>
-                    <CardBody>Fun Fact:{profile.fact}</CardBody>
-                </CardImgOverlay> 
-            </Card>
+            <div>
+                <Card id="image">
+                   <CardImgOverlay className="background">
+                        <CardImg top card-image src={profile.img} alt={profile.name}/>
+                        <CardBody className="background">
+                            <CardTitle>{profile.name}</CardTitle>
+                            <CardText>
+                                <ul>
+                                    <li>Birthday: {profile.dob}</li>
+                                    <li>Favorite Color: {profile.color}</li>
+                                    <li>Fun Fact: {profile.fact}</li>
+                                </ul>
+                            </CardText>
+                        </CardBody>
+                    </CardImgOverlay>
+                </Card>
+            </div>
         );
     }
 }
 
 function CharacterCard (props){
-    return <RenderCharacterCard profile={props.profile}/>
+    return (
+        <React.Fragment>
+            <Navbar/>
+            <RenderCharacterCard profile={props.profile}/>
+        </React.Fragment>
+    );
+
 }
 
 export default CharacterCard;

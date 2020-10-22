@@ -1,9 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import NavBar from './NavBarComponent';
-import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { PROFILES } from '../shared/profiles';
-import CharacterCard from './CharacterComponent'; 
 
 function ProfilePage (props) {
     const profilePageGrid = props.profiles.map(profile => {
