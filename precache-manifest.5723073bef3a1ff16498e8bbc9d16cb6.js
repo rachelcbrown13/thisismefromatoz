@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d84459a5f497b9c519ccdd239c68f679",
+    "revision": "0ab33aaf16df8be1eeff8d6c85b013f3",
     "url": "/thisismefromatozReact/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thisismefromatozReact/static/css/2.d31ed79e.chunk.css"
   },
   {
-    "revision": "dc63d58b7a245c076736",
+    "revision": "4081ddf3ca50b91d0360",
     "url": "/thisismefromatozReact/static/css/main.e1510915.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc63d58b7a245c076736",
-    "url": "/thisismefromatozReact/static/js/main.344f5cf0.chunk.js"
+    "revision": "4081ddf3ca50b91d0360",
+    "url": "/thisismefromatozReact/static/js/main.7c6ffd21.chunk.js"
   },
   {
     "revision": "609143a892e4c184fdfb",

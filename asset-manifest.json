@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/thisismefromatozReact/static/css/main.e1510915.chunk.css",
-    "main.js": "/thisismefromatozReact/static/js/main.344f5cf0.chunk.js",
-    "main.js.map": "/thisismefromatozReact/static/js/main.344f5cf0.chunk.js.map",
+    "main.js": "/thisismefromatozReact/static/js/main.7c6ffd21.chunk.js",
+    "main.js.map": "/thisismefromatozReact/static/js/main.7c6ffd21.chunk.js.map",
     "runtime-main.js": "/thisismefromatozReact/static/js/runtime-main.02b85e06.js",
     "runtime-main.js.map": "/thisismefromatozReact/static/js/runtime-main.02b85e06.js.map",
     "static/css/2.d31ed79e.chunk.css": "/thisismefromatozReact/static/css/2.d31ed79e.chunk.css",
     "static/js/2.2ea17626.chunk.js": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js",
     "static/js/2.2ea17626.chunk.js.map": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js.map",
     "index.html": "/thisismefromatozReact/index.html",
-    "precache-manifest.01f3a9c7c0588c254e8393acfda372d0.js": "/thisismefromatozReact/precache-manifest.01f3a9c7c0588c254e8393acfda372d0.js",
+    "precache-manifest.5723073bef3a1ff16498e8bbc9d16cb6.js": "/thisismefromatozReact/precache-manifest.5723073bef3a1ff16498e8bbc9d16cb6.js",
     "service-worker.js": "/thisismefromatozReact/service-worker.js",
     "static/css/2.d31ed79e.chunk.css.map": "/thisismefromatozReact/static/css/2.d31ed79e.chunk.css.map",
     "static/css/main.e1510915.chunk.css.map": "/thisismefromatozReact/static/css/main.e1510915.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.d31ed79e.chunk.css",
     "static/js/2.2ea17626.chunk.js",
     "static/css/main.e1510915.chunk.css",
-    "static/js/main.344f5cf0.chunk.js"
+    "static/js/main.7c6ffd21.chunk.js"
   ]
 }
