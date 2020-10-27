@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fad92058eab20b64817d44a977c48bee",
+    "revision": "d84459a5f497b9c519ccdd239c68f679",
     "url": "/thisismefromatozReact/index.html"
   },
   {
-    "revision": "7daf5a5093e69932fb4a",
+    "revision": "4fea1a0a3e5288c08cac",
     "url": "/thisismefromatozReact/static/css/2.d31ed79e.chunk.css"
   },
   {
-    "revision": "86617089f6735e6b4b8f",
-    "url": "/thisismefromatozReact/static/css/main.950c972b.chunk.css"
+    "revision": "dc63d58b7a245c076736",
+    "url": "/thisismefromatozReact/static/css/main.e1510915.chunk.css"
   },
   {
-    "revision": "7daf5a5093e69932fb4a",
-    "url": "/thisismefromatozReact/static/js/2.af5ad56b.chunk.js"
+    "revision": "4fea1a0a3e5288c08cac",
+    "url": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/thisismefromatozReact/static/js/2.af5ad56b.chunk.js.LICENSE.txt"
+    "url": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "86617089f6735e6b4b8f",
-    "url": "/thisismefromatozReact/static/js/main.e3ba99cf.chunk.js"
+    "revision": "dc63d58b7a245c076736",
+    "url": "/thisismefromatozReact/static/js/main.344f5cf0.chunk.js"
   },
   {
     "revision": "609143a892e4c184fdfb",

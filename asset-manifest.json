@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/thisismefromatozReact/static/css/main.950c972b.chunk.css",
-    "main.js": "/thisismefromatozReact/static/js/main.e3ba99cf.chunk.js",
-    "main.js.map": "/thisismefromatozReact/static/js/main.e3ba99cf.chunk.js.map",
+    "main.css": "/thisismefromatozReact/static/css/main.e1510915.chunk.css",
+    "main.js": "/thisismefromatozReact/static/js/main.344f5cf0.chunk.js",
+    "main.js.map": "/thisismefromatozReact/static/js/main.344f5cf0.chunk.js.map",
     "runtime-main.js": "/thisismefromatozReact/static/js/runtime-main.02b85e06.js",
     "runtime-main.js.map": "/thisismefromatozReact/static/js/runtime-main.02b85e06.js.map",
     "static/css/2.d31ed79e.chunk.css": "/thisismefromatozReact/static/css/2.d31ed79e.chunk.css",
-    "static/js/2.af5ad56b.chunk.js": "/thisismefromatozReact/static/js/2.af5ad56b.chunk.js",
-    "static/js/2.af5ad56b.chunk.js.map": "/thisismefromatozReact/static/js/2.af5ad56b.chunk.js.map",
+    "static/js/2.2ea17626.chunk.js": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js",
+    "static/js/2.2ea17626.chunk.js.map": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js.map",
     "index.html": "/thisismefromatozReact/index.html",
-    "precache-manifest.31e94608bd305878a1e8b30593c02a22.js": "/thisismefromatozReact/precache-manifest.31e94608bd305878a1e8b30593c02a22.js",
+    "precache-manifest.01f3a9c7c0588c254e8393acfda372d0.js": "/thisismefromatozReact/precache-manifest.01f3a9c7c0588c254e8393acfda372d0.js",
     "service-worker.js": "/thisismefromatozReact/service-worker.js",
     "static/css/2.d31ed79e.chunk.css.map": "/thisismefromatozReact/static/css/2.d31ed79e.chunk.css.map",
-    "static/css/main.950c972b.chunk.css.map": "/thisismefromatozReact/static/css/main.950c972b.chunk.css.map",
-    "static/js/2.af5ad56b.chunk.js.LICENSE.txt": "/thisismefromatozReact/static/js/2.af5ad56b.chunk.js.LICENSE.txt",
+    "static/css/main.e1510915.chunk.css.map": "/thisismefromatozReact/static/css/main.e1510915.chunk.css.map",
+    "static/js/2.2ea17626.chunk.js.LICENSE.txt": "/thisismefromatozReact/static/js/2.2ea17626.chunk.js.LICENSE.txt",
     "static/media/ActivityBookFrontCover.png": "/thisismefromatozReact/static/media/ActivityBookFrontCover.85fc6252.png",
     "static/media/FrontCover.png": "/thisismefromatozReact/static/media/FrontCover.db2e019e.png",
     "static/media/Letter_A.png": "/thisismefromatozReact/static/media/Letter_A.c397d75d.png",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.02b85e06.js",
     "static/css/2.d31ed79e.chunk.css",
-    "static/js/2.af5ad56b.chunk.js",
-    "static/css/main.950c972b.chunk.css",
-    "static/js/main.e3ba99cf.chunk.js"
+    "static/js/2.2ea17626.chunk.js",
+    "static/css/main.e1510915.chunk.css",
+    "static/js/main.344f5cf0.chunk.js"
   ]
 }
